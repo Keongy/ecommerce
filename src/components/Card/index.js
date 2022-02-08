@@ -12,7 +12,7 @@ const Card = ({ data, showcaseData }) => {
     }
 
     const handleShowProduct = () => {
-        navigate(`/products/${data.title.replace(/\s+/g, "").trim()}`)
+        navigate(`/products/${data.title.replace(/\s+/g, "").trim().toLowerCase()}`)
         showcaseData(data)
     }
 

@@ -5,12 +5,6 @@ import data from '../../data/inventory'
 
 const Products = ({ showcaseDataProps }) => {
 
-
-
-
-
-
-
     const showcaseData = (props) => {
         showcaseDataProps(props)
     }
